@@ -1,0 +1,1 @@
+capteurIR.o: capteurIR.cpp

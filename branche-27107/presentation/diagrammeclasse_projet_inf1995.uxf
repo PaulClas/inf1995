@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>15</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>150</y>
+      <w>315</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Can
+--
+uint8_t pos_
+--
+can()
+~can()
+uint16_t lecture(uint8_t pos)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>150</y>
+      <w>315</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>DEL
+--
+enum PORTx {A,B,C,D}
+PORTx port_
+--
+DEL(PORTx portx);
+void DEL_RED()
+void DEL_GREEN()
+void DEL_OFF()
+void DEL_AMBRE()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>390</y>
+      <w>645</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>detectionObstacle
+--
+detecttionObstacle()
+bool obstacleDetecte(uint16_t valeurAnalogique)
+bool identifiantObstacle(uint16_t valeurAnalogique, bool isPoteau)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>555</y>
+      <w>375</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>Moteur
+--
+Moteur();
+void initialisation();
+void avancer(uint8_t operande);
+void arreter();
+void reculer(uint8_t operande);
+void turnRight();
+void turnLeft();
+void slightTurnRight();
+void slightTurnLeft();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>555</y>
+      <w>315</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>PWM_MOTEUR
+--
+bool roue_
+uint8_t top_
+--
+PWM_MOTEUR(bool roue)
+void initialisation()
+void startPWM_Moteur(uint8_t percent);
+void stopPWM_Moteur();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>525</x>
+      <y>660</y>
+      <w>165</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>675</x>
+      <y>870</y>
+      <w>315</w>
+      <h>285</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long {composite}
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+-- Resp2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>885</y>
+      <w>315</w>
+      <h>285</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long {composite}
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+-- Resp2</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

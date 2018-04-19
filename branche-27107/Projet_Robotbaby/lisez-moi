@@ -1,0 +1,38 @@
+Bienvenue dans notre Projet RobotBaby 
+*************************************
+Thomas McAdams
+Emmanuelle Roberge
+Karima Salem
+Paul Clas
+Aurele Chanal
+Daniel Nahum
+
+Branchement :
+*************
+
+PortD : 
+	PinD6 : Alimentation Moteur D
+	PinD5 : Alimentation Moteur G
+
+	PinD7 : Direction Moteur G 
+	PinD8 : Direction Moteur D
+
+PortC :
+	Memoire
+
+PortB : 
+	GND : Ground Capteur G
+	VCC : Alimentation Capteur G
+
+	PinB3 : Piezo  
+	PinB4 : Piezo
+
+	PinB1 : Del
+	PinB2 : Del
+
+PortA :
+	GND : Groud Capteur D
+	VCC : Alimentation Capteur D
+
+	PinA1 : Capteur D
+	PinA3 : Capteur G

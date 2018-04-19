@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>198</x>
+      <y>81</y>
+      <w>189</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>buttonTouch.cpp
+--
+bool touchbutton()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>198</x>
+      <y>171</y>
+      <w>189</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>can.cpp
+--
+can()
+~can()
+uint16_t lecture(uint8_t pos(
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>171</y>
+      <w>189</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>can.h
+--
+can()
+~can()
+uint16_t lecture(uint8_t pos(
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>81</y>
+      <w>189</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>buttonTouch.h
+--
+bool touchbutton()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>198</x>
+      <y>279</y>
+      <w>189</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>DEL.cpp
+--
+enum PORTx {A,B,C,D}
+PORTx port_
+--
+DEL(PORTx portx);
+void DEL_RED()
+void DEL_GREEN()
+void DEL_OFF()
+void DEL_AMBRE()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>279</y>
+      <w>189</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>DEL.h
+--
+enum PORTx {A,B,C,D}
+PORTx port_
+--
+DEL(PORTx portx);
+void DEL_RED()
+void DEL_GREEN()
+void DEL_OFF()
+void DEL_AMBRE()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>450</y>
+      <w>387</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>detectionObstacle.cpp
+--
+detecttionObstacle()
+bool obstacleDetecte(uint16_t valeurAnalogique)
+bool identifiantObstacle(uint16_t valeurAnalogique, bool isPoteau)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>450</y>
+      <w>387</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>detectionObstacle.h
+--
+detecttionObstacle()
+bool obstacleDetecte(uint16_t valeurAnalogique)
+bool identifiantObstacle(uint16_t valeurAnalogique, bool isPoteau)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>540</y>
+      <w>225</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>Minuterie.cpp
+--
+uint8_t	minuterieExpiree_
+uint8_t	dixiemesSecondes_
+--
+Minuterie();
+void partirMinuterie ( uint16_t duree )
+void resetMinuterie ( uint16_t duree )
+uint8_t getMinuterieExpiree()
+uint8_t getDixiemesSecondes()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>540</y>
+      <w>225</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>Minuterie..h
+--
+uint8_t	minuterieExpiree_
+uint8_t	dixiemesSecondes_
+--
+Minuterie();
+void partirMinuterie ( uint16_t duree )
+void resetMinuterie ( uint16_t duree )
+uint8_t getMinuterieExpiree()
+uint8_t getDixiemesSecondes()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>855</x>
+      <y>225</y>
+      <w>117</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>avr/io.h</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>243</y>
+      <w>297</w>
+      <h>405</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>300.0;10.0;310.0;430.0;10.0;430.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>981</x>
+      <y>225</y>
+      <w>144</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>util/delay.h</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>243</y>
+      <w>414</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>440.0;10.0;440.0;480.0;10.0;480.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>837</x>
+      <y>243</y>
+      <w>234</w>
+      <h>261</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>240.0;10.0;240.0;270.0;10.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1143</x>
+      <y>225</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>stdio.h</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>837</x>
+      <y>243</y>
+      <w>369</w>
+      <h>279</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>390.0;10.0;390.0;290.0;10.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>621</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>477</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>342</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>198</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>90</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>729</y>
+      <w>225</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>Moteur.cpp
+--
+Moteur();
+void initialisation();
+void avancer(uint8_t operande);
+void arreter();
+void reculer(uint8_t operande);
+void turnRight();
+void turnLeft();
+void slightTurnRight();
+void slightTurnLeft();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>792</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>729</y>
+      <w>225</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>Moteur.h
+--
+Moteur();
+void initialisation();
+void avancer(uint8_t operande);
+void arreter();
+void reculer(uint8_t operande);
+void turnRight();
+void turnLeft();
+void slightTurnRight();
+void slightTurnLeft();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>243</y>
+      <w>306</w>
+      <h>567</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>320.0;10.0;320.0;610.0;10.0;610.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>243</y>
+      <w>432</w>
+      <h>621</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>460.0;10.0;460.0;670.0;10.0;670.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1251</x>
+      <y>225</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>avr/interrupt.h</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>243</y>
+      <w>657</w>
+      <h>648</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>700.0;10.0;710.0;700.0;10.0;700.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>567</x>
+      <y>882</y>
+      <w>27</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>990</y>
+      <w>234</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>PWM_MOTEUR.h
+--
+bool roue_
+uint8_t top_
+--
+PWM_MOTEUR(bool roue)
+void initialisation()
+void startPWM_Moteur(uint8_t percent);
+void stopPWM_Moteur();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>153</x>
+      <y>990</y>
+      <w>234</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>PWM_MOTEUR.cpp
+--
+bool roue_
+uint8_t top_
+--
+PWM_MOTEUR(bool roue)
+void initialisation()
+void startPWM_Moteur(uint8_t percent);
+void stopPWM_Moteur();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>1044</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>243</y>
+      <w>252</w>
+      <h>828</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>260.0;10.0;260.0;900.0;10.0;900.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>243</y>
+      <w>450</w>
+      <h>855</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>470.0;10.0;480.0;930.0;10.0;930.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>243</y>
+      <w>621</w>
+      <h>873</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>660.0;10.0;670.0;950.0;10.0;950.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>135</x>
+      <y>1170</y>
+      <w>252</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>UART.cpp
+--
+const bool CAPTEUR_GAUCHE = true;
+const bool CAPTEUR_DROITE = false;
+UART();
+void initialisation_UART ();
+void transmit_UART(uint8_t byte);
+void transmit_UART_number(uint16_t n);
+uint8_t USART_Receive(void);
+void transmit_identification();
+void transmit_capteur(bool coteCapteur);</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>243</y>
+      <w>225</w>
+      <h>1044</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;10.0;230.0;1140.0;10.0;1140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>243</y>
+      <w>279</w>
+      <h>846</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>280.0;10.0;290.0;920.0;10.0;920.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>243</y>
+      <w>351</w>
+      <h>1071</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>360.0;10.0;370.0;1170.0;10.0;1170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>1242</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>1170</y>
+      <w>252</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>UART.h
+--
+const bool CAPTEUR_GAUCHE = true;
+const bool CAPTEUR_DROITE = false;
+UART();
+void initialisation_UART ();
+void transmit_UART(uint8_t byte);
+void transmit_UART_number(uint16_t n);
+uint8_t USART_Receive(void);
+void transmit_identification();
+void transmit_capteur(bool coteCapteur);</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>1395</y>
+      <w>225</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Son.h
+--
+Son();
+void initialisation();
+void son();
+void arret();
+void chansonDeFin();
+void jouerSon(uint8_t operande);
+void chansonPoteau();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>1395</y>
+      <w>225</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Son.cpp
+--
+Son();
+void initialisation();
+void son();
+void arret();
+void chansonDeFin();
+void jouerSon(uint8_t operande);
+void chansonPoteau();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>1449</y>
+      <w>99</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>243</y>
+      <w>216</w>
+      <h>1251</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;10.0;220.0;1370.0;10.0;1370.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>243</y>
+      <w>342</w>
+      <h>1278</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>360.0;10.0;360.0;1400.0;10.0;1400.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>243</y>
+      <w>603</w>
+      <h>1296</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>650.0;10.0;650.0;1420.0;10.0;1420.0</additional_attributes>
+  </element>
+</diagram>

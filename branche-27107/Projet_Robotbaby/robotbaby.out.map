@@ -1,0 +1,793 @@
+Archive member included to satisfy reference by file (symbol)
+
+./lib_dir/librobotbaby.a(GestionnaireDEL.o)
+                              main.o (_ZN15GestionnaireDELC1Ev)
+./lib_dir/librobotbaby.a(can.o)
+                              main.o (_ZN3canC1Ev)
+./lib_dir/librobotbaby.a(memoire_24.o)
+                              main.o (_ZN13Memoire24CXXXD1Ev)
+./lib_dir/librobotbaby.a(DEL.o)
+                              main.o (_ZN3DELC1E5PORTx)
+./lib_dir/librobotbaby.a(Son.o)
+                              main.o (_ZN3Son14initialisationEv)
+./lib_dir/librobotbaby.a(GestionnaireMoteur.o)
+                              main.o (_ZN18GestionnaireMoteurC1Ev)
+./lib_dir/librobotbaby.a(MoteurDiag.o)
+                              ./lib_dir/librobotbaby.a(GestionnaireMoteur.o) (_ZN10MoteurDiag13avancerdroiteEh)
+./lib_dir/librobotbaby.a(UART.o)
+                              main.o (_ZN4UARTC1Ev)
+./lib_dir/librobotbaby.a(ID.o)
+                              ./lib_dir/librobotbaby.a(UART.o) (_ZN2IDC1Ev)
+./lib_dir/librobotbaby.a(PWM_MOTEUR_DIAG.o)
+                              ./lib_dir/librobotbaby.a(MoteurDiag.o) (_ZN15PWM_MOTEUR_DIAG14initialisationEv)
+/usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o (exit)
+/usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+/usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+/usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+                              main.o (__do_global_ctors)
+/usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+                              main.o (__do_global_dtors)
+/usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+                              /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o) (__tablejump2__)
+/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o)
+                              ./lib_dir/librobotbaby.a(UART.o) (sprintf)
+/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                              /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o) (vfprintf)
+/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                              /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                              /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen)
+/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+                              /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (fputc)
+/usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                              /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (__ultoa_invert)
+/usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o) (__prologue_saves__)
+/usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o) (__epilogue_restores__)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+LOAD main.o
+LOAD /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libm.a
+LOAD ./lib_dir/librobotbaby.a
+START GROUP
+LOAD /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libatmega324pa.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x19e6
+ *(.vectors)
+ .vectors       0x0000000000000000       0x7c /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000000000007c                . = ALIGN (0x2)
+                0x000000000000007c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000007c        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000007c                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x000000000000007c                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000007c                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000000000000007c        0x2 main.o
+ .ctors         0x000000000000007e        0x2 ./lib_dir/librobotbaby.a(MoteurDiag.o)
+                0x0000000000000080                __ctors_end = .
+                0x0000000000000080                __dtors_start = .
+ *(.dtors)
+ .dtors         0x0000000000000080        0x2 main.o
+                0x0000000000000082                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000082        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+                0x0000000000000082                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000082        0xc /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000000008e       0x16 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+                0x000000000000008e                __do_copy_data
+ .init4         0x00000000000000a4       0x10 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000000a4                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x00000000000000b4       0x16 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+                0x00000000000000b4                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000ca        0x8 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000d2        0x4 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+                0x00000000000000d2                __vector_22
+                0x00000000000000d2                __vector_28
+                0x00000000000000d2                __vector_24
+                0x00000000000000d2                __vector_12
+                0x00000000000000d2                __bad_interrupt
+                0x00000000000000d2                __vector_6
+                0x00000000000000d2                __vector_3
+                0x00000000000000d2                __vector_23
+                0x00000000000000d2                __vector_30
+                0x00000000000000d2                __vector_25
+                0x00000000000000d2                __vector_11
+                0x00000000000000d2                __vector_13
+                0x00000000000000d2                __vector_17
+                0x00000000000000d2                __vector_19
+                0x00000000000000d2                __vector_7
+                0x00000000000000d2                __vector_27
+                0x00000000000000d2                __vector_5
+                0x00000000000000d2                __vector_4
+                0x00000000000000d2                __vector_9
+                0x00000000000000d2                __vector_2
+                0x00000000000000d2                __vector_21
+                0x00000000000000d2                __vector_15
+                0x00000000000000d2                __vector_29
+                0x00000000000000d2                __vector_8
+                0x00000000000000d2                __vector_26
+                0x00000000000000d2                __vector_14
+                0x00000000000000d2                __vector_10
+                0x00000000000000d2                __vector_16
+                0x00000000000000d2                __vector_18
+ .text          0x00000000000000d6      0x5f6 main.o
+                0x00000000000000d6                __vector_1
+                0x0000000000000188                __vector_20
+                0x0000000000000250                _Z23initialisationInterruptv
+                0x0000000000000268                _Z4Initv
+                0x000000000000026e                _Z14suivreMurDroitj
+                0x0000000000000356                _Z15suivreMurGauchej
+                0x000000000000043e                _Z11runParcoursv
+                0x00000000000006b0                _Z34verificationPermissionChangerDeMurjjb
+ .text          0x00000000000006cc       0x48 ./lib_dir/librobotbaby.a(GestionnaireDEL.o)
+                0x00000000000006cc                _ZN15GestionnaireDELC2Ev
+                0x00000000000006cc                _ZN15GestionnaireDELC1Ev
+                0x00000000000006ce                _ZN15GestionnaireDEL14changerCouleurEh
+ .text          0x0000000000000714       0x58 ./lib_dir/librobotbaby.a(can.o)
+                0x0000000000000714                _ZN3canC2Ev
+                0x0000000000000714                _ZN3canC1Ev
+                0x0000000000000720                _ZN3canD1Ev
+                0x0000000000000720                _ZN3canD2Ev
+                0x0000000000000726                _ZN3can7lectureEh
+ .text          0x000000000000076c      0x352 ./lib_dir/librobotbaby.a(memoire_24.o)
+                0x000000000000076c                _ZN13Memoire24CXXXD2Ev
+                0x000000000000076c                _ZN13Memoire24CXXXD1Ev
+                0x000000000000076e                _ZN13Memoire24CXXX4initEv
+                0x0000000000000780                _ZN13Memoire24CXXXC2Ev
+                0x0000000000000780                _ZN13Memoire24CXXXC1Ev
+                0x000000000000078a                _ZN13Memoire24CXXX12choisir_bancEh
+                0x00000000000007a0                _ZN13Memoire24CXXX7lectureEjPh
+                0x0000000000000862                _ZN13Memoire24CXXX7lectureEjPhh
+                0x000000000000092a                _ZN13Memoire24CXXX8ecritureEjh
+                0x00000000000009ba                _ZN13Memoire24CXXX11ecrire_pageEjPhh
+                0x0000000000000a78                _ZN13Memoire24CXXX8ecritureEjPhh
+ .text          0x0000000000000abe       0x9e ./lib_dir/librobotbaby.a(DEL.o)
+                0x0000000000000abe                _ZN3DELC1E5PORTx
+                0x0000000000000abe                _ZN3DELC2E5PORTx
+                0x0000000000000ac4                _ZN3DEL7DEL_REDEv
+                0x0000000000000aea                _ZN3DEL9DEL_GREENEv
+                0x0000000000000b10                _ZN3DEL7DEL_OFFEv
+                0x0000000000000b2e                _ZN3DEL9DEL_AMBREEv
+ .text          0x0000000000000b5c      0x14e ./lib_dir/librobotbaby.a(Son.o)
+                0x0000000000000b5c                _ZN3Son5arretEv
+                0x0000000000000b64                _ZN3Son14initialisationEv
+                0x0000000000000b74                _ZN3SonC2Ev
+                0x0000000000000b74                _ZN3SonC1Ev
+                0x0000000000000b78                _ZN3Son12chansonDeFinEv
+                0x0000000000000bd8                _ZN3Son8jouerSonEh
+                0x0000000000000bf2                _ZN3Son3sonEv
+                0x0000000000000c0e                _ZN3Son5pauseEv
+                0x0000000000000c34                _ZN3Son13chansonPoteauEv
+ .text          0x0000000000000caa       0xa0 ./lib_dir/librobotbaby.a(GestionnaireMoteur.o)
+                0x0000000000000caa                _ZN18GestionnaireMoteurC1Ev
+                0x0000000000000caa                _ZN18GestionnaireMoteurC2Ev
+                0x0000000000000cae                _ZN18GestionnaireMoteur12moteurDroiteEh
+                0x0000000000000cfc                _ZN18GestionnaireMoteur12moteurGaucheEh
+ .text          0x0000000000000d4a      0x1e0 ./lib_dir/librobotbaby.a(MoteurDiag.o)
+                0x0000000000000d4a                _ZN10MoteurDiag13avancerdroiteEh
+                0x0000000000000d56                _ZN10MoteurDiag13avancergaucheEh
+                0x0000000000000d62                _ZN10MoteurDiag13arreterdroiteEv
+                0x0000000000000d6e                _ZN10MoteurDiag13arretergaucheEv
+                0x0000000000000d7a                _ZN10MoteurDiag13reculerdroiteEh
+                0x0000000000000d88                _ZN10MoteurDiag13reculergaucheEh
+                0x0000000000000d96                _ZN10MoteurDiag14initialisationEv
+                0x0000000000000dac                _ZN10MoteurDiagC2Ev
+                0x0000000000000dac                _ZN10MoteurDiagC1Ev
+                0x0000000000000db0                _ZN10MoteurDiag7avancerEh
+                0x0000000000000dce                _ZN10MoteurDiag7arreterEv
+                0x0000000000000de2                _ZN10MoteurDiag7reculerEh
+                0x0000000000000e00                _ZN10MoteurDiag9turnRightEv
+                0x0000000000000e2c                _ZN10MoteurDiag8turnLeftEv
+                0x0000000000000e58                _ZN10MoteurDiag9C_avancerEh
+                0x0000000000000e74                _ZN10MoteurDiag9C_arreterEv
+                0x0000000000000e86                _ZN10MoteurDiag9C_reculerEh
+                0x0000000000000ea2                _ZN10MoteurDiag11C_turnRightEv
+                0x0000000000000ece                _ZN10MoteurDiag10C_turnLeftEv
+                0x0000000000000efa                _ZN10MoteurDiag17C_slightTurnRightEv
+                0x0000000000000f12                _ZN10MoteurDiag16C_slightTurnLeftEv
+ .text          0x0000000000000f2a      0x344 ./lib_dir/librobotbaby.a(UART.o)
+                0x0000000000000f38                _ZN4UART19initialisation_UARTEv
+                0x0000000000000f54                _ZN4UARTC2Ev
+                0x0000000000000f54                _ZN4UARTC1Ev
+                0x0000000000000f58                _ZN4UART13transmit_UARTEh
+                0x0000000000000f66                _ZN4UART13USART_ReceiveEv
+                0x0000000000000f74                _ZN4UART20transmit_UART_numberEj
+                0x0000000000000fec                _ZN4UART20transmit_UART_nombreEh
+                0x0000000000001064                _ZN4UART23transmit_identificationEv
+                0x000000000000116c                _ZN4UART16transmit_capteurEb
+ .text          0x000000000000126e       0x60 ./lib_dir/librobotbaby.a(ID.o)
+                0x000000000000126e                _ZN2IDC1Ev
+                0x000000000000126e                _ZN2IDC2Ev
+                0x00000000000012be                _ZN2ID15getInformationsEv
+ .text          0x00000000000012ce       0x76 ./lib_dir/librobotbaby.a(PWM_MOTEUR_DIAG.o)
+                0x00000000000012ce                _ZN15PWM_MOTEUR_DIAGC1Ev
+                0x00000000000012ce                _ZN15PWM_MOTEUR_DIAGC2Ev
+                0x00000000000012d0                _ZN15PWM_MOTEUR_DIAG14initialisationEv
+                0x00000000000012ee                _ZN15PWM_MOTEUR_DIAGC2Eb
+                0x00000000000012ee                _ZN15PWM_MOTEUR_DIAGC1Eb
+                0x00000000000012f6                _ZN15PWM_MOTEUR_DIAG15startPWM_MoteurEh
+                0x0000000000001328                _ZN15PWM_MOTEUR_DIAG14stopPWM_MoteurEv
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .text          0x0000000000001344        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+                0x0000000000001344                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x0000000000001344       0x8c main.o
+                0x0000000000001344                main
+ .text.exit     0x00000000000013d0        0x8 main.o
+ .text.startup  0x00000000000013d8       0x14 ./lib_dir/librobotbaby.a(MoteurDiag.o)
+ .text.libgcc.mul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.div
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc   0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.prologue
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.builtins
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.fmul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.fixed
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.mul
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000000013ec        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x00000000000013ec        0xc /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+                0x00000000000013ec                __tablejump2__
+ .text.libgcc.prologue
+                0x00000000000013f8        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000000013f8        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000000013f8        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000000013f8        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.avr-libc
+                0x00000000000013f8       0x46 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o)
+                0x00000000000013f8                sprintf
+ .text.avr-libc
+                0x000000000000143e      0x3d8 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                0x000000000000143e                vfprintf
+ .text.avr-libc
+                0x0000000000001816       0x16 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                0x0000000000001816                strnlen_P
+ .text.avr-libc
+                0x000000000000182c       0x16 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                0x000000000000182c                strnlen
+ .text.avr-libc
+                0x0000000000001842       0x60 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+                0x0000000000001842                fputc
+ .text.avr-libc
+                0x00000000000018a2       0xbc /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                0x00000000000018a2                __ultoa_invert
+ .text.libgcc.mul
+                0x000000000000195e        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x000000000000195e        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x000000000000195e        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x000000000000195e       0x38 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+                0x000000000000195e                __prologue_saves__
+ .text.libgcc.builtins
+                0x0000000000001996        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000001996        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000001996        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000001996        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000001996        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000001996        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x0000000000001996       0x36 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+                0x0000000000001996                __epilogue_restores__
+ .text.libgcc.builtins
+                0x00000000000019cc        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000000019cc        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000000019cc        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+                0x00000000000019cc                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000019cc        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+                0x00000000000019cc                exit
+                0x00000000000019cc                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ .fini6         0x00000000000019cc       0x16 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+                0x00000000000019cc                __do_global_dtors
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000019e2        0x4 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000019e6                _etext = .
+
+.data           0x0000000000800100       0x4c load address 0x00000000000019e6
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+ .data          0x0000000000800100        0x2 main.o
+                0x0000000000800100                suivreMur
+                0x0000000000800101                boutonPoussoir
+ .data          0x0000000000800102        0x0 ./lib_dir/librobotbaby.a(GestionnaireDEL.o)
+ .data          0x0000000000800102        0x0 ./lib_dir/librobotbaby.a(can.o)
+ .data          0x0000000000800102        0x1 ./lib_dir/librobotbaby.a(memoire_24.o)
+                0x0000000000800102                _ZN13Memoire24CXXX22m_adresse_peripheriqueE
+ .data          0x0000000000800103        0x0 ./lib_dir/librobotbaby.a(DEL.o)
+ .data          0x0000000000800103       0x25 ./lib_dir/librobotbaby.a(Son.o)
+                0x0000000000800103                tableau
+ .data          0x0000000000800128        0x0 ./lib_dir/librobotbaby.a(GestionnaireMoteur.o)
+ .data          0x0000000000800128        0x0 ./lib_dir/librobotbaby.a(MoteurDiag.o)
+ .data          0x0000000000800128        0x0 ./lib_dir/librobotbaby.a(UART.o)
+ .data          0x0000000000800128        0x0 ./lib_dir/librobotbaby.a(ID.o)
+ .data          0x0000000000800128        0x0 ./lib_dir/librobotbaby.a(PWM_MOTEUR_DIAG.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000800128        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x0000000000800128       0x15 ./lib_dir/librobotbaby.a(ID.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x000000000080013d        0xe ./lib_dir/librobotbaby.a(UART.o)
+ *(.gnu.linkonce.d*)
+                0x000000000080014c                . = ALIGN (0x2)
+ *fill*         0x000000000080014b        0x1 
+                0x000000000080014c                _edata = .
+                0x000000000080014c                PROVIDE (__data_end, .)
+
+.bss            0x000000000080014c        0x6
+                0x000000000080014c                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x000000000080014c        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+ .bss           0x000000000080014c        0x2 main.o
+                0x000000000080014c                mode
+                0x000000000080014d                mem
+ .bss           0x000000000080014e        0x0 ./lib_dir/librobotbaby.a(GestionnaireDEL.o)
+ .bss           0x000000000080014e        0x0 ./lib_dir/librobotbaby.a(can.o)
+ .bss           0x000000000080014e        0x0 ./lib_dir/librobotbaby.a(memoire_24.o)
+ .bss           0x000000000080014e        0x0 ./lib_dir/librobotbaby.a(DEL.o)
+ .bss           0x000000000080014e        0x0 ./lib_dir/librobotbaby.a(Son.o)
+ .bss           0x000000000080014e        0x0 ./lib_dir/librobotbaby.a(GestionnaireMoteur.o)
+ .bss           0x000000000080014e        0x4 ./lib_dir/librobotbaby.a(MoteurDiag.o)
+                0x000000000080014e                moteurDiag_G
+                0x0000000000800150                moteurDiag_D
+ .bss           0x0000000000800152        0x0 ./lib_dir/librobotbaby.a(UART.o)
+ .bss           0x0000000000800152        0x0 ./lib_dir/librobotbaby.a(ID.o)
+ .bss           0x0000000000800152        0x0 ./lib_dir/librobotbaby.a(PWM_MOTEUR_DIAG.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+ .bss           0x0000000000800152        0x0 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+                0x0000000000800152                PROVIDE (__bss_end, .)
+                0x00000000000019e6                __data_load_start = LOADADDR (.data)
+                0x0000000000001a32                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800152        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800152                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x0000000000000000     0x7764
+ *(.stab)
+ .stab          0x0000000000000000     0x1554 main.o
+ .stab          0x0000000000001554      0x618 ./lib_dir/librobotbaby.a(GestionnaireDEL.o)
+                                        0x624 (size before relaxing)
+ .stab          0x0000000000001b6c      0x630 ./lib_dir/librobotbaby.a(can.o)
+                                        0x63c (size before relaxing)
+ .stab          0x000000000000219c      0xe94 ./lib_dir/librobotbaby.a(memoire_24.o)
+                                        0xea0 (size before relaxing)
+ .stab          0x0000000000003030      0x768 ./lib_dir/librobotbaby.a(DEL.o)
+                                        0x774 (size before relaxing)
+ .stab          0x0000000000003798      0x9cc ./lib_dir/librobotbaby.a(Son.o)
+                                        0x9d8 (size before relaxing)
+ .stab          0x0000000000004164      0x744 ./lib_dir/librobotbaby.a(GestionnaireMoteur.o)
+                                        0x750 (size before relaxing)
+ .stab          0x00000000000048a8      0xeb8 ./lib_dir/librobotbaby.a(MoteurDiag.o)
+                                        0xec4 (size before relaxing)
+ .stab          0x0000000000005760      0xbe8 ./lib_dir/librobotbaby.a(UART.o)
+                                        0xbf4 (size before relaxing)
+ .stab          0x0000000000006348      0x5b8 ./lib_dir/librobotbaby.a(ID.o)
+                                        0x5c4 (size before relaxing)
+ .stab          0x0000000000006900      0x6d8 ./lib_dir/librobotbaby.a(PWM_MOTEUR_DIAG.o)
+                                        0x6e4 (size before relaxing)
+ .stab          0x0000000000006fd8       0x6c /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_exit.o)
+                                         0x78 (size before relaxing)
+ .stab          0x0000000000007044       0xd8 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_copy_data.o)
+                                         0xe4 (size before relaxing)
+ .stab          0x000000000000711c       0xb4 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_clear_bss.o)
+                                         0xc0 (size before relaxing)
+ .stab          0x00000000000071d0       0xd8 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_ctors.o)
+                                         0xe4 (size before relaxing)
+ .stab          0x00000000000072a8       0xd8 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_dtors.o)
+                                         0xe4 (size before relaxing)
+ .stab          0x0000000000007380       0x9c /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_tablejump2.o)
+                                         0xa8 (size before relaxing)
+ .stab          0x000000000000741c      0x1a4 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_prologue.o)
+                                        0x1b0 (size before relaxing)
+ .stab          0x00000000000075c0      0x1a4 /usr/lib/gcc/avr/6.3.0/avr5/libgcc.a(_epilogue.o)
+                                        0x1b0 (size before relaxing)
+
+.stabstr        0x0000000000000000     0x5b8c
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x5b8c main.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x42
+ *(.comment)
+ .comment       0x0000000000000000       0x21 main.o
+                                         0x22 (size before relaxing)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(GestionnaireDEL.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(can.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(memoire_24.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(DEL.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(Son.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(GestionnaireMoteur.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(MoteurDiag.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(UART.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(ID.o)
+ .comment       0x0000000000000021       0x22 ./lib_dir/librobotbaby.a(PWM_MOTEUR_DIAG.o)
+ .comment       0x0000000000000021       0x21 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(sprintf.o)
+                                         0x22 (size before relaxing)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x6cc
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x6cc /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+
+.debug_abbrev   0x0000000000000000      0x66e
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x66e /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+
+.debug_line     0x0000000000000000       0x1d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1d /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x255
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x255 /usr/lib/gcc/avr/6.3.0/../../../../avr/lib/avr5/crtatmega324pa.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(robotbaby.out elf32-avr)
+LOAD linker stubs

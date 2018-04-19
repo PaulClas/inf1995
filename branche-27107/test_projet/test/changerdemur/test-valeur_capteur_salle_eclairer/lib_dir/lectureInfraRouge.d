@@ -1,0 +1,1 @@
+lectureInfraRouge.o: lectureInfraRouge.cpp
